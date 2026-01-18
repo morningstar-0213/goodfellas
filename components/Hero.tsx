@@ -32,8 +32,8 @@ export function Hero() {
                         transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
                         className="text-4xl sm:text-5xl md:text-8xl font-bold tracking-tight mb-6 md:mb-8 bg-clip-text text-transparent bg-gradient-to-b from-white to-white/60"
                     >
-                        The world's most <br />
-                        <span className="text-white">secure messaging platform</span>
+                        One of the most <br />
+                        <span className="text-white">secure messaging platforms</span>
                     </motion.h1>
 
                     <motion.p

@@ -1,5 +1,6 @@
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
+import { NetworkWarning } from './components/NetworkWarning';
 import { SecurityFeatures } from './components/SecurityFeatures';
 import { HowItWorks } from './components/HowItWorks';
 import { Features } from './components/Features';
@@ -32,11 +33,22 @@ export default function App() {
       <main className="relative z-10">
         <Navbar />
         <Hero />
-        <Features />
-        <HowItWorks />
-        <SocialShowcase />
-        <Screenshots />
-        <SecurityFeatures />
+        <NetworkWarning />
+        <section id="features">
+          <Features />
+        </section>
+        <section id="how-it-works">
+          <HowItWorks />
+        </section>
+        <section id="socials">
+          <SocialShowcase />
+        </section>
+        <section id="screenshots">
+          <Screenshots />
+        </section>
+        <section id="security">
+          <SecurityFeatures />
+        </section>
         <Footer />
       </main>
     </div>

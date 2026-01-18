@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Button } from "@/components/ui/button";
+
 
 export function Navbar() {
     return (
@@ -16,17 +16,14 @@ export function Navbar() {
                 </div>
 
                 <div className="hidden md:flex items-center gap-8">
-                    <a href="#" className="text-sm font-medium text-white/70 hover:text-white transition-colors">Features</a>
-                    <a href="#" className="text-sm font-medium text-white/70 hover:text-white transition-colors">Security</a>
-                    <a href="#" className="text-sm font-medium text-white/70 hover:text-white transition-colors">How It Works</a>
-                    <a href="#" className="text-sm font-medium text-white/70 hover:text-white transition-colors">Screenshots</a>
-                    <a href="#" className="text-sm font-medium text-white/70 hover:text-white transition-colors">Developer</a>
+                    <a href="#features" className="text-sm font-medium text-white/70 hover:text-white transition-colors">Features</a>
+                    <a href="#security" className="text-sm font-medium text-white/70 hover:text-white transition-colors">Security</a>
+                    <a href="#how-it-works" className="text-sm font-medium text-white/70 hover:text-white transition-colors">How It Works</a>
+                    <a href="#screenshots" className="text-sm font-medium text-white/70 hover:text-white transition-colors">Screenshots</a>
+                    <a href="#socials" className="text-sm font-medium text-white/70 hover:text-white transition-colors">Developer</a>
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <Button variant="ghost" className="hidden sm:inline-flex text-white hover:text-white hover:bg-white/10">
-                        Login
-                    </Button>
                     <a href="#" className="inline-flex items-center justify-center h-10 px-4 py-2 bg-white text-black rounded-md font-medium hover:bg-white/90 transition-colors">
                         Download App
                     </a>

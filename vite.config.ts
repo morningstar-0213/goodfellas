@@ -9,6 +9,7 @@ export default defineConfig({
         react(),
         tailwindcss(),
     ],
+    base: "/goodfellas/",
     resolve: {
         alias: [
             { find: "@", replacement: path.resolve(__dirname, "./") },

@@ -2,12 +2,15 @@
     "name": "goodfellas-promotion",
     "private": true,
     "version": "0.0.0",
+    "homepage": "https://morningstar-0213.github.io/goodfellas",
     "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
         "lint": "eslint .",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
         "@radix-ui/react-accordion": "^1.2.12",
@@ -67,6 +70,7 @@
         "eslint": "^9.17.0",
         "eslint-plugin-react-hooks": "^5.0.0",
         "eslint-plugin-react-refresh": "^0.4.16",
+        "gh-pages": "^6.3.0",
         "globals": "^15.14.0",
         "typescript": "~5.6.2",
         "typescript-eslint": "^8.18.2",
